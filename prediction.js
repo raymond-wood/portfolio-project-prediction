@@ -16,13 +16,13 @@ const predictionArray = [
     'tradgedy will occur.',
     'you will watch Grace and Frankie today.'];
 
-//Choose and return a prediction at random
-function makePrediction(arr) {
+//Choose and return a random string from the array
+function randomString(arr) {
     const index = Math.floor(Math.random() * arr.length);
 
     return arr[index];
 }
 
-console.log(`I predict that ${makePrediction(predictionArray)}`);
+console.log(`I predict that ${randomString(predictionArray)}`);
 
 
