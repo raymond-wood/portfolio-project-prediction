@@ -13,7 +13,8 @@ const predictionArray = [
     'you will reunite with an old friend.',
     'you will meet the love of your life.',
     'it will rain today.',
-    'tradgedy will occur.'];
+    'tradgedy will occur.',
+    'you will watch Grace and Frankie today.'];
 
 //Choose and return a prediction at random
 function makePrediction(arr) {
